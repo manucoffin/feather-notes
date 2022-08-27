@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Trebuchet MS", "sans-serif"],
+        sans: ["Arial", "Trebuchet MS", "sans-serif"],
         serif: ["Georgia", "serif"],
         handwritting: ["Caveat", "sans-serif"],
       },
