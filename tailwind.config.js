@@ -5,7 +5,13 @@ module.exports = {
     "./src/core/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Trebuchet MS", "sans-serif"],
+        serif: ["Georgia", "serif"],
+        handwritting: ["Caveat", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };
